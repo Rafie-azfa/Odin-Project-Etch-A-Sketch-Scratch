@@ -4,17 +4,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
-html {
-  min-height: 100%;
-  position: relative;
-}
-
-.header {
+.wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  padding: 10px;
+  background-color: #eee;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
 
 .handheld {
