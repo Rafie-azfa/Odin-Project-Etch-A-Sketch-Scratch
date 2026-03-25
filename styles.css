@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .wrapper {
@@ -25,11 +25,26 @@ header, footer {
 }
 
 main {
+  display: flex;
   flex: 1;
   padding: 20px;
   background-color: #f9f9f9;
+  justify-content: center;
+  align-items: center;
 }
 
 .handheld {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
   background-color: gray;
+  height: 400px;
+  width: 800px;
+}
+
+.screen {
+  background-color: greenyellow;
+  width: 256px;
+  height: 256px;
 }
